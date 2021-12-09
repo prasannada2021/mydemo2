@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo Table" max_length="40" name="x_730133_my_demo2_demo_table" type="collection">
+        <element label="Age" max_length="15" name="age" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="first name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="last name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
